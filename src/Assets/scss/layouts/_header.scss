@@ -1,0 +1,22 @@
+.header {
+  background-color: $gray-f4;
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    width: 40%;
+
+    img {
+      width: rem(140px);
+    }
+  }
+
+  nav {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}

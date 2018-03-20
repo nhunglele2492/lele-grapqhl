@@ -1,0 +1,28 @@
+.footer {
+  background: $gray-33;
+  padding: 50px 0;
+  color: $white;
+  text-align: center;
+
+  &__logo {
+    margin-bottom: rem(60px);
+    display: block;
+
+    img {
+      width: rem(140px);
+    }
+  }
+
+  &__social-links {
+    li {
+      display: inline-block;
+      margin: rem(0 20px);
+
+      a {
+        color: $white;
+        text-transform: uppercase;
+        font-size: rem(12px);
+      }
+    }
+  }
+}
